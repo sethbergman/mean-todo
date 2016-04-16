@@ -1,14 +1,16 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <title></title>
+  <title>MEAN TODO | Stack Riot</title>
   <link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="/styles/main.css" type="text/css">
+  <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon" />
 </head>
 <body ng-app="todoListApp">
-  
-  <h1>My TODOs!</h1>
-  
+
+  <h1>My TODOs</h1>
+  <h4>A ToDo list application built on the MEAN stack</h4>
+
   <div class="list" ng-controller="mainCtrl">
     <div class="add">
       <a href="#" ng-click="addTodo()">
@@ -17,7 +19,7 @@
     <todo></todo>
    </div>
 
-  
+
   <script src="/vendor/angular.js"></script>
   <script src="/scripts/app.js"></script>
   <script src="/scripts/controllers/main.js"></script>
@@ -25,4 +27,11 @@
   <script src="/scripts/services/data.js"></script>
   <script src="/scripts/directives/todo.js"></script>
 </body>
+<footer>
+    <small>
+        <center><a href="https://github.com/sethbergman/mean-todo" target="_blank">Source Code</a></center>
+        <center>© Copyright 2016</center>
+        <center><a href="http://sethbergman.com" target="_blank">Seth Bergman == Software Engineer</a></center>
+    </small>
+</footer>
 </html>
