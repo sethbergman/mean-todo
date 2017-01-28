@@ -1,6 +1,8 @@
 # MEAN-TODO
 #### TODO list app built with MongoDB + Express + Angular + Node.js
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/sethbergman/mean-todo.svg)](https://greenkeeper.io/)
+
 ### Clone Repository
 ```
 git clone https://github.com/sethbergman/mean-todo.git && cd mean-todo
