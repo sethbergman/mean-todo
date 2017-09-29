@@ -5,7 +5,9 @@
   "main": "src/app.js",
   "scripts": {
     "start": "node src/app.js",
-    "bundle": "webpack"
+    "bundle": "webpack",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -22,9 +24,11 @@
     "body-parser": "^1.15.0",
     "express": "^4.13.4",
     "mongoose": "^4.4.10",
-    "webpack": "^1.12.14"
+    "webpack": "^1.12.14",
+    "snyk": "^1.41.1"
   },
   "devDependencies": {
     "webpack": "^1.12.14"
-  }
+  },
+  "snyk": true
 }
